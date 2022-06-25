@@ -6,14 +6,10 @@ const navBar = document.querySelector(".nav-bar");
 
 openBtn.addEventListener("click", () => {
   navBar.classList.add("open");
-  closeBtnShow.classList.add("show");
-  openBtnClose.classList.add("hide");
   
 })
 closeBtn.addEventListener("click", () => {
   navBar.classList.remove("open");
-  closeBtnShow.classList.remove("show");
-  openBtnClose.classList.remove("hide");
   
 })
 
