@@ -12,8 +12,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;0,900;1,600;1,700&display=swap" rel="stylesheet">
   <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
   <link rel="stylesheet" href="css/main.min.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>

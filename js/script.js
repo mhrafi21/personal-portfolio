@@ -18,13 +18,25 @@ closeBtn.addEventListener("click", () => {
 })
 
 
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: "2",
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
+// reveal
+  function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible =200;
+    console.log(elementVisible);
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
 
       // tabs

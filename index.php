@@ -1,11 +1,12 @@
-<?php include("includes/head.php") ?>
-<?php include("includes/sidebar.php") ?>
+<!-- <?php include("includes/sidebar.php") ?>
 <?php include("includes/header.php") ?>
+
+
 
 <main>
   <section class="pt-5">
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col-lg-4 mt-3">
           <div class="border p-3 d-flex align-items-center justify-content-center">
             <div>
@@ -36,7 +37,7 @@
       </div>
     </div>
   </section>
-  <section class="pt-5">
+  <section class="pt-5 ">
     <div class="container">
       <h2 class="text-dark">What I Do</h2>
       <div class="row">
@@ -55,30 +56,11 @@
           <h5>Ecommerce</h5>
           <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore debitis quia delectus magnam soluta odit quam dolorum sapiente, similique est?</p>
         </div>
-        <div class="col-lg-6 py-3">
+        <div class="col-lg-6 py-3 ">
           <i class="fa-solid fa-flag text-primary fs-1 py-2"></i>
           <h5>Management</h5>
           <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore debitis quia delectus magnam soluta odit quam dolorum sapiente, similique est?</p>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="pt-5">
-    <div class="container ">
-      <h2 class="text-dark">Testimonial</h2>
-      <!-- Swiper -->
-      <!-- Swiper -->
-      <div class="swiper mySwiper ">
-        <div class="swiper-wrapper ">
-          <div class="swiper-slide ">
-            <div class = "t-img">
-                    <img class = "img-fluid rounded-circle" src="./img/profile.png" alt="">
-            </div>
-          </div>
-          <div class="swiper-slide">Slide 2</div>
-        
-        </div>
-        <div class="swiper-pagination"></div>
       </div>
     </div>
   </section>
@@ -87,4 +69,4 @@
 
 
 
-<?php include("includes/footer.php") ?>
+<?php include("includes/footer.php") ?> -->

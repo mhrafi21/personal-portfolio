@@ -32,9 +32,9 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  overflow-x: hidden;
 }
 
+/* sidebar */
 nav a,
 li {
   text-decoration: none;
@@ -44,31 +44,32 @@ li {
 
 nav {
   height: 5rem;
+  width:100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
 }
 
-nav ul {
+nav .nav-bar{
   display: flex;
   margin: 0;
 }
 
-nav ul li {
+nav .nav-bar li {
   padding-right: 2rem;
 }
 
-nav ul li a {
+nav .nav-bar li a {
   transition: var(--transition);
   color: var(--bs-gray);
 }
 
-nav ul li a:hover {
+nav .nav-bar li a:hover {
   color: var(--bs-primary);
 }
 
-nav ul li .a-active {
+nav .nav-bar li .a-active {
   color: var(--bs-primary);
 }
 
@@ -128,23 +129,23 @@ nav ul li .a-active {
     top: 0;
     right: 0;
     width: 100%;
-    transform: translateX(100%);
     justify-content: center;
     align-items: center;
-    height: 100vh;
+
     background-color: var(--bs-white);
     transition: var(---transform);
   }
 
-  .nav-bar.open {
-    transform: translateX(0);
+  /* .nav-bar.open {
+    transform: translateX(0rem);
+  } */
 
-  }
-
-  nav ul li {
+  nav .nav-bar li {
     margin: 1rem 0rem;
   }
 }
+
+/* sidebar */
 
 
 /* header */
@@ -156,85 +157,17 @@ nav ul li .a-active {
   background-color: var(--bs-gray);
   color: var(--bs-white);
 }
+/* header */
 
-/* swipper js  */
-.swiper {
-  width: 100%;
-  height: 100%;
-    padding: 5rem;
-   
-   
-}
-
-.swiper-slide {
-  padding: 5rem;
-  text-align: center;
-  font-size: 18px;
- ;
-  position: relative;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 80%;
-  object-fit: cover;
-}
-
-.swiper-slide {
-  width: 80%;
-  background: var(--bg-color)
-
-}
-
-.swiper-slide:nth-child(2n) {
-  width: 60%;
-}
-
-.swiper-slide:nth-child(3n) {
-  width: 40%;
-}
-.t-img{
-  height: 60px;
-  width:60px;
-  position:absolute; 
-  top:-10;
-  z-index:100;
-
-}
-
-/* tabs */
-
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
+/* reveal */
+    .reveal {
+      position: relative;
+      transform: translateY(1rem);
+      opacity: 0;
+      transition: 1s all ease;
+    }
+  
+    .reveal.active {
+      transform: translateY(0);
+      opacity: 1;
+    }
