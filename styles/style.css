@@ -82,7 +82,9 @@ a {
           display: none;
 }
 
-
+.icons-btn{
+          display: none;
+}
 
 .icons-btn .i-1 {
           display: none;
@@ -128,7 +130,9 @@ a {
           .t-info {
                     display: block;
           }
-
+                    .icons-btn {
+                              display: block;
+                    }
           .icons-btn {
                     position: relative;
                     background-color: #0d6efd;
