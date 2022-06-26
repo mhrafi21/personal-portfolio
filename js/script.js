@@ -1,16 +1,17 @@
 const openBtn = document.querySelector("#openBtn");
 const closeBtn = document.querySelector("#closeBtn");
-const closeBtnShow = document.querySelector(".n-icon .n-icon-2");
-const openBtnClose = document.querySelector(".n-icon .n-icon-1");
 const navBar = document.querySelector(".nav-bar");
+const openBtnClose = document.querySelectorAll(".icons-btn .i-1")
 
 openBtn.addEventListener("click", () => {
   navBar.classList.add("open");
+  openBtn.classList.add("active");
+
   
 })
 closeBtn.addEventListener("click", () => {
   navBar.classList.remove("open");
-  
+   openBtnClose.classList.remove("active");
 })
 
 
