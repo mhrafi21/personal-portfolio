@@ -1,19 +1,31 @@
 const openBtn = document.querySelector("#openBtn");
 const closeBtn = document.querySelector("#closeBtn");
 const navBar = document.querySelector(".nav-bar");
-const openBtnClose = document.querySelectorAll(".icons-btn .i-1")
+const openBtnClose = document.querySelector(" .icons-btn .i-1");
+const closeBtnOpen = document.querySelector(" .icons-btn .i-2");
 
 openBtn.addEventListener("click", () => {
   navBar.classList.add("open");
-  openBtn.classList.add("active");
+  openBtnClose.classList.add("active")
+  closeBtnOpen.classList.add('show');
+
 
   
 })
 closeBtn.addEventListener("click", () => {
   navBar.classList.remove("open");
-   openBtnClose.classList.remove("active");
-})
+    openBtnClose.classList.remove("active")
+  closeBtnOpen.classList.remove('show');
 
+  
+})
+// Portfolio
+document.getElementsByClassName("btn")[1].addEventListener("click", function(){
+  document.getElementsByClassName("img").src("img1.JPG");
+  document.getElementsByClassName("img").src("img2.JPG");
+  document.getElementsByClassName("img").src("img3.JPG");
+  document.getElementsByClassName("img").src("img4.JPG");
+})
 
 // reveal
   function reveal() {
