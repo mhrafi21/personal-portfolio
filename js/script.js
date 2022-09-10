@@ -49,3 +49,8 @@ window.addEventListener("scroll", reveal);
 
 
       // tabs
+
+
+    //count
+
+    

@@ -235,19 +235,4 @@ z-index: 0;
                     background-color: var(--bs-gray);
                     color: var(--bs-white);
           }
-
-          /* header */
-
-          /* reveal */
-          .reveal {
-                    position: relative;
-                    transform: translateY(1rem);
-                    opacity: 0;
-                    transition: 1s all ease;
-          }
-
-          .reveal.active {
-                    transform: translateY(0);
-                    opacity: 1;
-          }
 }

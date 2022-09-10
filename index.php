@@ -27,7 +27,7 @@
           <div class="border p-3 d-flex align-items-center justify-content-center">
             <div>
               <small class="fw-bolder">Working Hour</small>
-              <p class="fs-1 text-muted">200+</p>
+              <p class="fs-1 text-muted">0</p>
 
             </div>
           </div>
@@ -36,7 +36,7 @@
           <div class="border p-3 d-flex align-items-center justify-content-center">
             <div>
               <small class="fw-bolder"> Happy Clients</small>
-              <p class="fs-1 text-muted">500+</p>
+              <p class="fs-1 text-muted">0</p>
 
             </div>
           </div>
@@ -45,8 +45,7 @@
           <div class="border p-3 d-flex align-items-center justify-content-center">
             <div>
               <small class="fw-bolder"> Award Won</small>
-              <p class="fs-1 text-muted">17+</p>
-
+              <p class="fs-1 text-muted">0</p>
             </div>
           </div>
         </div>
