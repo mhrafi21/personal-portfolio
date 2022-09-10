@@ -3,7 +3,7 @@
                     <nav class="s-nav ">
                               <a class="fs-1 fw-bolder text-primary" href="">RAFI</a>
                               <ul class="nav-bar ">
-                                        <li><img class="p-img img-fluid" src="./img/hero.jpg" alt=""></li>
+                                        <li><img class="p-img img-fluid" src="./img/hero.png" alt="u"></li>
                                         <li class="t-info">
                                                   <h3 class="text-center">Mahdi Hasan</h3>
                                                   <p class="text-center">Web developer</p>
