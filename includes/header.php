@@ -1,4 +1,4 @@
-<div class=" w-100">
+<div class=" w-100 mh-100">
           <div class="container">
                     <nav class="s-nav ">
                               <a class="fs-1 fw-bolder text-primary" href="">RAFI</a>
