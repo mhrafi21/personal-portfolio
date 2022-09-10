@@ -63,12 +63,12 @@
         </div>
         <div class="col-lg-6 py-3">
           <i class="fa-solid fa-pen text-primary fs-1 py-2"></i>
-          <h5>Ecommerce</h5>
+          <h5>Front-End</h5>
           <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore debitis quia delectus magnam soluta odit quam dolorum sapiente, similique est?</p>
         </div>
         <div class="col-lg-6 py-3">
           <i class="fa-solid fa-desktop text-primary fs-1 py-2"></i>
-          <h5>Ecommerce</h5>
+          <h5>Back-end</h5>
           <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore debitis quia delectus magnam soluta odit quam dolorum sapiente, similique est?</p>
         </div>
         <div class="col-lg-6 py-3 ">
