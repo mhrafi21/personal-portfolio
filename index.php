@@ -27,7 +27,7 @@
           <div class="border p-3 d-flex align-items-center justify-content-center">
             <div>
               <small class="fw-bolder">Working Hour</small>
-              <p class="fs-1 text-muted">0</p>
+              <div class="fs-1 text-muted counter" data-target="5000">0</div>
 
             </div>
           </div>
@@ -36,7 +36,7 @@
           <div class="border p-3 d-flex align-items-center justify-content-center">
             <div>
               <small class="fw-bolder"> Happy Clients</small>
-              <p class="fs-1 text-muted">0</p>
+              <div class="fs-1 text-muted counter" data-target="100">0</div>
 
             </div>
           </div>
@@ -45,7 +45,7 @@
           <div class="border p-3 d-flex align-items-center justify-content-center">
             <div>
               <small class="fw-bolder"> Award Won</small>
-              <p class="fs-1 text-muted">0</p>
+              <div class="fs-1 text-muted counter" data-target="10">0</div>
             </div>
           </div>
         </div>

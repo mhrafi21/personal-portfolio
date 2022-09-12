@@ -19,38 +19,24 @@ closeBtn.addEventListener("click", () => {
 
   
 })
-// Portfolio
-document.getElementsByClassName("btn")[1].addEventListener("click", function(){
-  document.getElementsByClassName("img").src("img1.JPG");
-  document.getElementsByClassName("img").src("img2.JPG");
-  document.getElementsByClassName("img").src("img3.JPG");
-  document.getElementsByClassName("img").src("img4.JPG");
-})
 
-// reveal
-  function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
 
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible =200;
-    console.log(elementVisible);
+    //counter
+   
+const counters = document.querySelectorAll(".counter");
+const speed = 20;
 
-    if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
+counters.forEach(counter => {
+  const updateCounter = () => {
+    const target = +counter.getAttribute("data-target");
+    const count = +counter.innerText;
+    const inc = target / speed; 
+    if (count < target) {
+      counter.innerText = Math.ceil(count + inc) ;
+      setTimeout(updateCounter,50)
     } else {
-      
+      counter.innerText = target;
     }
   }
-}
-
-window.addEventListener("scroll", reveal);
-
-
-      // tabs
-
-
-    //count
-
-    
+  updateCounter();
+})
