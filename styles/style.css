@@ -39,9 +39,12 @@ body {
 .top-bar {
           transition: var(---transition);
 }
-.p-top{
-          padding-top:7rem;
+
+.p-top {
+          padding-top: 7rem;
+          z-index: 0;
 }
+
 .top-bar.active {
           height: 5rem;
           background-color: var(--bs-primary);
@@ -60,10 +63,15 @@ a {
           align-items: center;
           height: 5rem;
 }
+
 #t-nav{
-          position:fixed;
-          background: #000;
-          display: block;
+          position: fixed;
+          z-index: 100;
+}
+#t-nav.active{
+          box-shadow: rgb(0 0 0 / 45%) 1px 9px 20px -20px;
+          transform:translate(0rem 1rem);
+          transition:var(---transition);
 }
 .nav-bar {
           display: flex;
@@ -107,39 +115,46 @@ a {
 .icons-btn .i-2 {
           display: none;
 }
+
 /* portfolio */
-.btn.active{
+.btn.active {
           background-color: var(--bs-secondary);
 }
-.image{
+
+.image {
           height: 30rem;
           position: relative;
 }
-.image img{
+
+.image img {
           height: 100%;
           width: 100%;
           object-fit: cover;
           position: absolute;
           filter: grayscale(0.8) brightness(0.7);
           overflow: hidden;
-          transition:var(---transition);
-          padding:1rem 1rem 1rem 0rem;
+          transition: var(---transition);
+          padding: 1rem 1rem 1rem 0rem;
 }
-.image img:hover{
-filter: grayscale(1) brightness(1);
+
+.image img:hover {
+          filter: grayscale(1) brightness(1);
 }
-.filterItem{
-z-index: 0;
+
+.filterItem {
+          z-index: 0;
 }
 
 /* blog */
-.blog-title{
-          color:var(--bs-dark)
+.blog-title {
+          color: var(--bs-dark)
 }
-.blog-title:hover{
+
+.blog-title:hover {
           text-decoration: underline;
 }
-.read-more:hover{
+
+.read-more:hover {
           text-decoration: underline;
 }
 
@@ -179,7 +194,7 @@ z-index: 0;
                     border-radius: 100%;
                     object-fit: cover;
                     display: block;
-                    border:1px solid var(--bs-gray);
+                    border: 1px solid var(--bs-gray);
           }
 
           .t-info {
@@ -194,7 +209,7 @@ z-index: 0;
                     display: block;
                     right: 0;
                     top: 0;
-                    z-index:10000;
+                    z-index: 10000;
           }
 
           .icons-btn .i-1 {
@@ -245,7 +260,7 @@ z-index: 0;
 }
 
 /* portfolio */
-.p-sec{
+.p-sec {
           position: absolute;
 }
 

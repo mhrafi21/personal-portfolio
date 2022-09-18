@@ -1,3 +1,4 @@
+
 const openBtn = document.querySelector("#openBtn");
 const closeBtn = document.querySelector("#closeBtn");
 const navBar = document.querySelector(".nav-bar");
@@ -20,6 +21,17 @@ closeBtn.addEventListener("click", () => {
   
 })
 
+// sticky-nav
+const tNav = document.querySelector("#t-nav");
+window.addEventListener("scroll", () => {
+  if ( window.scrollY > 20) {
+    tNav.classList.add("active");
+  } else {
+      tNav.classList.remove("active");
+  }
+})
+
+// sticky-nav
 
     //counter
    
