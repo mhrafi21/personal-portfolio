@@ -1,7 +1,7 @@
 <?php include("includes/head.php") ?>
 <?php include("includes/header.php") ?>
 
-<header>
+<header class = "p-top">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">

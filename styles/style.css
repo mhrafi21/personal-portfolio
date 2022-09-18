@@ -39,7 +39,9 @@ body {
 .top-bar {
           transition: var(---transition);
 }
-
+.p-top{
+          padding-top:7rem;
+}
 .top-bar.active {
           height: 5rem;
           background-color: var(--bs-primary);
@@ -58,11 +60,14 @@ a {
           align-items: center;
           height: 5rem;
 }
-
+#t-nav{
+          position:fixed;
+          background: #000;
+          display: block;
+}
 .nav-bar {
           display: flex;
-          margin: 0;
-          position:fixed
+          margin: 0 auto;
 
 }
 

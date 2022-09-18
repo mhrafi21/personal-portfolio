@@ -1,5 +1,4 @@
-
-<div class=" w-100 mh-100 t-nav">
+<div id="t-nav" class=" w-100 mh-100  ">
           <div class="container">
                     <nav class="s-nav ">
                               <a class="fs-1 fw-bolder text-primary" href="">RAFI</a>
@@ -12,7 +11,6 @@
                                         <li><a class="active" href="index.php">Home</a></li>
                                         <li><a href="resume.php">Resume</a></li>
                                         <li><a href="portfolio.php">Portfolio</a></li>
-                                        <li><a href="blog.php">Blog</a></li>
                                         <li><a href="contact.php">Contact</a></li>
                               </ul>
 

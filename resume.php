@@ -1,8 +1,8 @@
 <?php include("includes/head.php") ?>
 <?php include("includes/header.php") ?>
 
-<main>
-  <div class="container">
+<main class="p-top">
+  <div class="container ">
     <h2 class="text-dark">Resume</h2>
     <p class="text-muted">2+ Years of Experience</p>
     <div class="row">
