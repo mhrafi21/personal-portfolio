@@ -10,11 +10,11 @@
         <h5>Education</h5>
         <div>
           <p class="text-muted fs-3 pt-3">Institutions</p>
-          <small class="text-muted p-1 bg-light rounded-3">2014-'19</small>
+          <small class="text-muted p-1  rounded-3">2014-'19</small>
           <p class="pt-2">Nakla Govt. Pilot High School <small class="text-muted">(Completed SSC)</small></p>
         </div>
         <div>
-          <small class="text-muted p-1 bg-light rounded-3">2019-'21</small>
+          <small class="text-muted bg-muted p-1  rounded-3">2019-'21</small>
           <p class="pt-2">Govt. Anando Mohan College <small class="text-muted">(Completed HSC)</small></p>
         </div>
       </div>

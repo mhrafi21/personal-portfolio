@@ -32,7 +32,7 @@ counters.forEach(counter => {
     const count = +counter.innerText;
     const inc = target / speed; 
     if (count < target) {
-      counter.innerText = Math.ceil(count + inc) ;
+      counter.innerText = Math.ceil(count + inc);
       setTimeout(updateCounter,50)
     } else {
       counter.innerText = target;

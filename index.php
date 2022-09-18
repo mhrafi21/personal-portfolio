@@ -24,27 +24,27 @@
     <div class="container">
       <div class="row ">
         <div class="col-lg-4 mt-3">
-          <div class="border p-3 d-flex align-items-center justify-content-center">
+          <div class=" p-3 border d-flex align-items-center justify-content-center">
             <div>
-              <small class="fw-bolder">Working Hour</small>
+              <small class="fw-normal fs-3">Working Hour</small>
               <div class="fs-1 text-muted counter" data-target="5000">0</div>
 
             </div>
           </div>
         </div>
         <div class="col-lg-4 mt-3">
-          <div class="border p-3 d-flex align-items-center justify-content-center">
+          <div class=" p-3 border d-flex align-items-center justify-content-center">
             <div>
-              <small class="fw-bolder"> Happy Clients</small>
+              <small class="fw-normal fs-3"> Happy Clients</small>
               <div class="fs-1 text-muted counter" data-target="100">0</div>
 
             </div>
           </div>
         </div>
         <div class="col-lg-4 mt-3">
-          <div class="border p-3 d-flex align-items-center justify-content-center">
+          <div class=" p-3 border d-flex align-items-center justify-content-center">
             <div>
-              <small class="fw-bolder"> Award Won</small>
+              <small class="fw-normal fs-3"> Award Won</small>
               <div class="fs-1 text-muted counter" data-target="10">0</div>
             </div>
           </div>
@@ -56,7 +56,7 @@
     <div class="container">
       <h2 class="text-dark">What I Do</h2>
       <div class="row">
-        <div class="col-lg-6 py-3">
+        <div class="col-lg-6 py-3 ">
           <i class="fa-solid fa-dumpster text-primary fs-1 py-2"></i>
           <h5>Ecommerce</h5>
           <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore debitis quia delectus magnam soluta odit quam dolorum sapiente, similique est?</p>
