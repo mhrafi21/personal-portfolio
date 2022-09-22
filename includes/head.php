@@ -18,7 +18,7 @@
   <!-- favicon -->
   <link rel="icon" href="img/favicon.ico" type = "image/x-icon">
   <!-- favicon -->
-  <title>Rafi | Personal-portfolio</title>
+  <title>Rafi | Personal-Portfolio</title>
 </head>
 
 <body class="bg-light">
